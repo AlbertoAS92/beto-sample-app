@@ -1,0 +1,37 @@
+[
+  {
+    "id": 0,
+    "userName": "alberto",
+    "password": "1234",
+    "name": "Alberto",
+    "surname": "Aguilera Sanz"
+  },
+  {
+    "id": 1,
+    "userName": "test",
+    "password": "1234",
+    "name": "Test",
+    "surname": "Test"
+  },
+  {
+    "id": 2,
+    "userName": "admin",
+    "password": "1234",
+    "name": "Admin",
+    "surname": "Admin"
+  },
+  {
+    "id": 3,
+    "userName": "monia",
+    "password": "1234",
+    "name": "Monika",
+    "surname": "Czarnecka"
+  },
+  {
+    "id": 4,
+    "userName": "gosia",
+    "password": "1234",
+    "name": "Gosia",
+    "surname": "Czarnecka"
+  }
+]

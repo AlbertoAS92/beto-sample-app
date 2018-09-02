@@ -1,0 +1,15 @@
+<h1>LOGIN PAGE COMPONENT</h1>
+
+<div>
+  <form class="form-group" [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+    <bsa-login-username [loginForm]="loginForm"></bsa-login-username>
+    <bsa-login-password [loginForm]="loginForm"></bsa-login-password>
+    <button type="submit" class="btn btn-primary" [disabled]="loginForm.invalid">
+      Submit form
+    </button>
+  </form>
+</div>
+
+<div>
+  <bsa-login-users-available></bsa-login-users-available>
+</div>

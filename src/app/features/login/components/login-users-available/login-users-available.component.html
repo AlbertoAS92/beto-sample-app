@@ -1,0 +1,15 @@
+<h4>Users Available:</h4>
+<div class="container">
+  <div class="row">
+    <div *ngFor="let user of (availableUsers$ | async)[resolverName]" class="m-3 col-3">
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">User ID: {{ user.id }}</h5>
+          <h6 class="card-subtitle mb-2 text-muted">{{ user.name }} {{ user.surname }}</h6>
+          <p class="card-text">User Name: {{ user.userName }}</p>
+          <p class="card-text">Password: {{ user.password }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

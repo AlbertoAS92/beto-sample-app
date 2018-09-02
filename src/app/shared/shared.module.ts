@@ -10,7 +10,8 @@ const components = [
 ];
 
 const exported = [
-  ...components
+  ...components,
+  CommonModule
 ];
 
 @NgModule({
